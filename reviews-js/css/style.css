@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+main { 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #E5E5E5;
+}
+
+.container {
+  width: 510px;
+  height: 480px;
+  background: #F5F5F5;
+  box-shadow: 2px 2px 4px #C4C4C4;
+  border-radius: 10px;
+}
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+  color: #7AB5C8;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 117px;
+  height: 5px;
+  background: #7AB5C8;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.img-container {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  left: 40%;
+  justify-content: center;
+  align-items: center;
+  background: #7AB5C8;
+  margin-top: 20px;
+}
+
+#person-img {
+  width: 98px;
+  height: 110px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  left: 4%;
+  justify-content: center;
+  align-items: center;
+}
+
+.next {
+  position: relative;
+  display: inline-block;
+  left: 69%;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  color: #7AB5C8;
+}
+  
+.previous {
+  position: relative;
+  display: inline-block;
+  right: 19%;
+}
+
+.name-person {
+  margin-top: 20px;
+  text-align: center;
+  color: #308EAB;
+  font-size: 1.3rem;
+  line-height: 10px;
+  font-weight: 500;
+}
+
+.text-review {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.0rem;
+  color: #898989;
+
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+  line-height: 15px;
+}
+
+button {
+  display: inline-block;
+  text-transform: uppercase;
+  background: #7AB5C8;
+  border-radius: 4px;
+  position: relative;
+  width: 89px;
+  height: 25px;
+  top: 5%;
+  right: 0;
+  left: 43%;
+  color: #F5F5F5;
+  border: none;
+
+  cursor: pointer;
+}
+
+button:hover {
+  transition: background, color 0.2s;
+  background: #308EAB;
+}
