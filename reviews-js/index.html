@@ -13,23 +13,30 @@
 <body>
   <main>
     <section class="container">
+
       <div class="title">
         <h2>Our Reviews</h2>
         <div class="underline"></div>
       </div>
+
       <article class="review">
+
         <div class="img-container">
           <img src="img/person-img.png" id="person-img" alt="Person">
         </div>
-        <div class="previous">
-          <a href=""><i class="fas fa-chevron-left"></i></a>
+
+        <div class="button-container">
+          <button class="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
         </div>
-        <div class="next">
-          <a href=""><i class="fas fa-chevron-right"></i></a>
-        </div>
+
         <div>
-          <h2 class="name-person">Isabel Santos</h2>
-          <p class="text-review">
+          <h2 id="name-person">Isabel Santos</h2>
+          <p id="text-review">
           "Lorem ipsum dolor sit amet, consectetur <br>
           adipiscing elit, sed do eiusmod tempor <br>
           incididunt ut labore et dolore magna aliqua. <br>
@@ -39,7 +46,9 @@
           </p>
         </div>
       </article>
-      <button id="btn-meet">Meet</button>
+      <div id="btn-footer">
+        <button class="btn-meet">Meet</button>
+      </div>
     </section>
   </main>
     
